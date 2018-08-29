@@ -14,7 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" />
 
 	
-
+	<script>
+		if($(window).width() < 1024){ $('#fullpage').removeAttr('id'); 
+	</script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
 	
 
@@ -30,11 +32,7 @@
 		
 		});
 	</script>
-	<script>
-if (screen && screen.width > 768) {
-document.write('<script type="text/javascript" src="http://your-file-path/fullpage.js"><\/script>');
-}
-</script>
+	
 </head>
 <body>
 	<div class="" id="fullpage">
