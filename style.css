@@ -124,6 +124,7 @@ h1{
 
 
 @media only screen and (max-width: 600px) {
+    body,html { overflow: scroll; }
     h1 {
         font-size: 330%;
     }
