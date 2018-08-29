@@ -13,7 +13,7 @@ html, body{
     display: table;
     background-size: cover;
     margin: avto;
-    position: fixed;
+    position: relative;
     margin-bottom: 0;
 }
 
